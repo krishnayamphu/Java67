@@ -6,9 +6,9 @@ public class Mobile {
     public void info(){
         System.out.println("showing info");
     }
-    public void getMobile(Mobile m)
+    public void getMobile(Mobile mobile)
     {
-        m.info();
+        mobile.info();
     }
     public void show(){
         getMobile(this);
