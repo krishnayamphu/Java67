@@ -10,7 +10,6 @@ public class Voter {
             throw new ArithmeticException("under age: "+age);
         }
     }
-
     public static void main(String[] args) {
         Voter voter=new Voter();
         try{
